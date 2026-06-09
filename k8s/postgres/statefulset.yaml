@@ -16,7 +16,7 @@ spec:
     spec:
       # Pin to k8s-lab-worker-1 so it co-locates with the hostPath PV
       nodeSelector:
-        kubernetes.io/hostname: k8s-lab-worker-1
+        kubernetes.io/hostname: k8s-worker-1
 
       containers:
         - name: postgres

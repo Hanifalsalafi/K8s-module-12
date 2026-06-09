@@ -15,7 +15,7 @@
 
 set -euo pipefail
 
-ECR_ACCOUNT="388779989543"
+ECR_ACCOUNT="645387694575"
 ECR_REGION="ap-south-1"
 ECR_SERVER="${ECR_ACCOUNT}.dkr.ecr.${ECR_REGION}.amazonaws.com"
 NAMESPACE="bmi-app"
